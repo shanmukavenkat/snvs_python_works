@@ -7,5 +7,5 @@ def print_char_count(line):
         line.count(char)
         print(msg.format(char=char,count=line.count(char)))
 
-line_ = input()
+line_ = input().split()
 print_char_count(line_)
