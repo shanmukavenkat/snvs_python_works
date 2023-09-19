@@ -55,3 +55,4 @@ def default_test():
     car.sound_horn()  # Calling the accelerate method when the is_engine_started is False
     car.start_engine()  # Starting the engine
     car.sound_horn()  # Calling the accelerate method when the is_engine_started is True
+default_test()
