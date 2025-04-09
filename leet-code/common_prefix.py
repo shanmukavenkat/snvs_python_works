@@ -1,3 +1,3 @@
 a = input().split()
-if len(a) == 1:
-    print(a[0])
+check = ["True" if a[0][0] == a[1][0] else "False"]
+print(check)
